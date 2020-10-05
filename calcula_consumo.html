@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcula_consumo</title>
+</head>
+<body>
+    <script>
+
+        function mostra (frase){
+            document.write(frase);
+        }
+        var tanque= 40;
+        var caminhoComGasolina = 480;
+        var consumoComGasolina = caminhoComGasolina/tanque;
+
+        mostra("<h3>Álcool ou Gasolina?<h3><br>");
+
+        mostra("O meu carro consome " + Math.round (consumoComGasolina) + " litros de gasolina por km rodado.<br><br>");
+
+        var caminhoComAlcool =300;
+        var consumoDeAlcool = caminhoComAlcool/tanque;
+
+        mostra("O meu carro consome " + Math.round (consumoDeAlcool) + " litros de álcool por km rodado.<br><br>");
+
+
+    </script>
+    
+</body>
+</html>

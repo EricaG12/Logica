@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercícioLaranja</title>
+</head>
+<body>
+
+    <h2> Divisão das Laranjas</h2>
+
+    <script>
+        function distribuiLaranja (numerolar,numeroviz){
+            var resto = numerolar/numeroviz
+            document.write (resto)
+            var vizinhos = (numero-resto)/numeroviz
+            document.write(vizinhos)
+            return mostra ("A quantidade de laranja(s) para Joselito é de " + resto + " unidades(s), e para os vizinhos é de " + vizinhos + " unidades.");
+        }
+        //gaurdar resto laranjas.
+        //dividir numero de laranjas pelo numero de vizinhos.
+        //retornar quantidade de laranjas que ficaram para cada vizinho e para mim.
+
+        distrubuiLaranja(13, 5)
+        
+    </script>
+    
+</body>
+</html>
